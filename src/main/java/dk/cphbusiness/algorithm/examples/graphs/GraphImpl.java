@@ -9,6 +9,11 @@ import java.util.Collection;
  */
 public class GraphImpl implements Graph<String, Integer>{
     private Node first;
+
+    @Override
+    public Vertex<String, Integer> vertexOf(String data) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     private class Node {
         Vertex<String, Integer> vertex;
